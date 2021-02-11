@@ -25,6 +25,9 @@ public class Company {
 		@DBRef
 		private List <Employee> employee;
 		
+		@DBRef
+		private List <PayRecord> payroll;
+		
 		public int getId() {
 			return id;
 		}
